@@ -1,0 +1,39 @@
+@media only screen and (max-width: 400px) {
+    .displayItem #iframe{
+        width: 100%;
+        border: none;
+        height: 250px;
+    }
+    .displayItem h4{
+        color:#911122;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+    .displayItem p{
+        color:#110d0d;
+        padding-left: 15px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (min-width: 400px) {
+    .displayItem #iframe{
+        width: 100%;
+        border: none;
+        height: 450px;
+    }
+    .displayItem h4{
+        color:#911122;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+    .displayItem p{
+        color:#351717;
+        padding-left: 15px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+}
